@@ -1,0 +1,47 @@
+/* 改变主题色变量 */
+$--color-primary: #004FFF;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+body {
+  margin: 0;
+}
+#app {
+  font-family: "PingFang SC","SF Pro SC","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.logo {
+  text-align: center;
+}
+.el-form-item {
+  margin-bottom: 10px;
+}
+.el-table {
+  th > .cell {
+    padding: 0;
+  }
+  td {
+    &:nth-child(3) .cell {
+      padding: 0 5px;
+    }
+  }
+  .cell {
+    padding: 0;
+  }
+  tr.el-table__row:hover > td {
+    background-color: #004FFF;
+    .cell {
+      color: #FFF;
+    }
+  }
+  .el-table__body tr > td:nth-child(4) .cell {
+    font-weight: bold;
+    font-family: Arial;
+  }
+  .el-table__body tr > td:nth-child(4) .cell {
+    font-weight: bold;
+    font-family: Arial;
+  }
+}
