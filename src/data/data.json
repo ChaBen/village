@@ -206,6 +206,7 @@
     { "letter": "B", "level": "7", "name": "表白", "shuang": "B286 + B341", "dan": "B286", "lei": "分开" },
     { "letter": "B", "level": "7", "name": "表象", "shuang": "A352 + B687", "dan": "B687", "lei": "分开" },
     { "letter": "C", "level": "6", "name": "唱起这首歌", "shuang": "A227 + B578", "dan": "A227", "lei": "分开" },
+    { "letter": "C", "level": "8", "name": "Can Be Better", "shuang": "A369 + B514", "dan": "B514", "lei": "分开" },
     { "letter": "D", "level": "6", "name": "Dreams Come True*", "shuang": "A73 + A216", "dan": "A73", "lei": "分开" },
     { "letter": "D", "level": "6", "name": "当你*", "shuang": "B459 + B614", "dan": "B614", "lei": "分开" },
     { "letter": "D", "level": "6", "name": "地铁等待", "shuang": "A276 + B680", "dan": "A276", "lei": "分开" },
