@@ -52,12 +52,12 @@ export default {
   },
   methods: {
     radioChange (item) {
-      const result = new Fuse(musicData[item], {
+      this.tableData = musicData[this.moshi]
+      this.fuseSearch = new Fuse(musicData[this.moshi], {
         keys: ['letter', 'level'],
         threshold: 0.3
       })
       this.input = null
-      this.tableData = result.list
     },
     inputSearch (query) {
       let result = []
@@ -71,9 +71,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.search-box {
-  padding: 10px;
-}
-</style>
